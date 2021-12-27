@@ -1,4 +1,3 @@
-# YouTube_Downloader
+# YouTube Downloader
 
-## Stipulations
-### Incapacitating the serviceability of Windows Defender is indisputably indispensable to instigate the YouTube Downloader
+**How to <u>INSTALL<u>**
