@@ -1,10 +1,8 @@
 import os
 from tkinter import *
 from pytube import YouTube
-from tkinter import messagebox
 import ffmpeg
 import time
-import vlc
 
 root = Tk()
 root.geometry('500x300')
