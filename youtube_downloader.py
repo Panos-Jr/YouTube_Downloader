@@ -1,12 +1,14 @@
 import os
 from tkinter import *
 from pytube import YouTube
-from tkinter import messagebox
 import ffmpeg
 import time
+<<<<<<< HEAD:youtube_downloader.py
 import vlc
 import requests
 #imported requests
+=======
+>>>>>>> c293389cca69ca7846fb6ce267467b41d1dd0ead:YT_Downloader [GUI]/youtube_downloader.py
 
 root = Tk()
 root.geometry('500x300')
