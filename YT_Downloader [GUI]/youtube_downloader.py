@@ -5,6 +5,8 @@ from tkinter import messagebox
 import ffmpeg
 import time
 import vlc
+import requests
+#imported requests
 
 root = Tk()
 root.geometry('500x300')
@@ -100,5 +102,11 @@ def Downloader():
     #os.system(f"cmd /c {value1}/ffmpeg.bat")
     #os.system(f"ffmpeg -i video.mp4 -i audio.mp3 -c copy function.mp4")
     #os.system('explorer "%userprofile%\Desktop\YouTube"')
+
+version = '1.0.3'
+ver_url = 'url_given'
+ver_req = requests.get(url)
+#automatic updates
+update = None
 btn = Button(root,text = 'Download', font = 'arial 15 bold', bg = "pale violet red", command = Downloader, activebackground = 'white', activeforeground = 'black', cursor = "hand2", padx = 3, pady = 3, border = 2).place(x = 180, y = 189)
 root.mainloop()
