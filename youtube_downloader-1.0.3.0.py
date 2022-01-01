@@ -146,6 +146,7 @@ def Downloader():
         file_video = ffmpeg.input(video)
         file_audio = ffmpeg.input(audio)
         #ffmpeg.concat(file_video, file_audio, v=1, a=1).output(file).run()
+        #concatenate
         
     #audio and video
         ffmpeg.output(file_video, file_audio, file, acodec='copy', vcodec='copy').run()
@@ -153,10 +154,10 @@ def Downloader():
     if os.path.exists(f"{value1}/file.txt"):
         Label(root, text = 'Download Successful!', font = 'arial 17', fg = 'white', bg = "#282828").place(x = 129 , y = 241)
         file_rem = pathlib.Path(f'{value1}/file.txt')
-        file_rem.unlink()
-        print('exists')
+        file_rem.unlink() 
+        print('exists')  #indication that the file : 'file.txt' exists.
         subprocess.run(f'explorer "%userprofile%\Desktop\YouTube\downloaded\{url.title}.mp4"', shell=True)
-        
+        #instigate output
 
     else:
         merge(video_file, audio_file, final_file)
