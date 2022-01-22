@@ -6,7 +6,7 @@ The `youtube_downloader` is an efficacious contrivance which can download '**YOU
 
 ### **Clarification** 
 This is not a malevolent dissemination, to instigate you’ll have to incapacitate the serviceability of your '**ANTIVIRUS** software' (if the executable **file** is not FOUND, you will have to manually recover it, since your antivirus will have threat discernment, from your **antivirus** software). **BE AWARE**!
- If a warning does appear, try disabling restricted access. 
+ If a warning does appear, try disabling [restricted access](https://github.com/Panos-Jr/YouTube_Downloader/blob/main/README.md#restricted-access)
 
 
 
