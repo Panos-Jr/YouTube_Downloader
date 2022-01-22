@@ -13,6 +13,16 @@ This is not a malevolent dissemination, to instigate you’ll have to incapacita
 ### **Installation**
 **`WINDOWS`** : For **MORE** instructions about the installation visit the [recent release](https://github.com/Panos-Jr/YouTube_Downloader/releases/tag/v1.0.3.1) (**LINK included**)
 
+### **IMAGES**
+
+**NOT responding**
+If while downloading, the **PROGRAM** is `not responding`, the program is checking for any ERRORS. (**do not close while running**).
+<img src="https://user-images.githubusercontent.com/84411578/150657826-a9840b56-bfaa-4357-94fd-78858ddc76ac.png" alt="not responding">
+
+**Download Successful!**
+If the video has downloaded successfully, this is what you should see.
+<img src="https://user-images.githubusercontent.com/84411578/150657922-847ee096-54be-4dec-8608-1d9b6e7249ab.png" alt="download successful">
+
 ### **Restricted Access**
 <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/PowerShell_5.0_icon.png" alt="powershell icon" width="100">
 To disable restricted access (unblock file) you can navigate to the **youtube_downloader-1.0.3.1.exe**. RIGHT CLICK > Properties > UNBLOCK file.
