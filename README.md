@@ -15,4 +15,5 @@ If a divulgence appears, click the arrow and keep. (If a warning appears saying 
 ### **Restricted Access**
 <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/PowerShell_5.0_icon.png" alt="powershell icon" width="100">
 TO disable **RESTRICTED ACCESS** you can navigate to the `youtube_downloader-1.0.3.1.exe`. RIGHT CLICK > Properties > `UNBLOCK file`.
-<img src="https://user-images.githubusercontent.com/84411578/150656984-901b3f63-9bde-4517-93d7-4c06a8377c1e.png" alt="unblock-file powershell">
+<img src="https://user-images.githubusercontent.com/84411578/150657066-8a6d3305-e26e-4f4c-a3a4-58aed555ee00.png" alt="unblock-file powershell">
+
