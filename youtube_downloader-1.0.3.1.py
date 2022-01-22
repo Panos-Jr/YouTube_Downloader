@@ -1,5 +1,4 @@
 import os
-import sys
 from tkinter import *
 from pytube import YouTube
 import ffmpeg
@@ -77,7 +76,8 @@ def update():
     archived = archive(file_acq, ARCHIVED)
     
 try:
-    version = '1.0.3.0'
+    version = '1.0.3.1'
+    Label(root, text=f'Version : {version}', font = 'Arial 13 bold', fg = 'white', bg = '#282828').place(x = 299, y = 35)
     num =  version.replace('.', '')
     ver_url = 'https://raw.githubusercontent.com/Panos-Jr/YouTube_Downloader/main/version.txt'                                                                     
     url_req = requests.get(ver_url)
@@ -112,16 +112,13 @@ def Downloader():
             video.download(f'{value1}/YouTube/video', filename = 'video.mp4')
             indicator = 1
     except:
-        subprocess.run("mkdir %userprofile%\Desktop\YouTube", shell=True) 
         path = os.path.join(value1, "YouTube")
         path1 = os.path.join(path, "downloaded")
         url.streams.get_highest_resolution().download(output_path = path1)
-        with open(f'{value1}/file.txt', 'w+') as f:
-            f.write('indicator')
-        print('[exception] ==> 1080[p] NOT SUPPORTED')
+        file = open('file.txt', 'a')
+        file.write('file')
     try:        
         if indicator:
-            print(value1)
             audio = url.streams.filter(only_audio = True).first()
             audio.download(f'{value1}/YouTube/audio', filename = f'audio.mp3')
     except:
@@ -156,14 +153,11 @@ def Downloader():
         file_rem.unlink()
         print('exists')
         subprocess.run(f'explorer "%userprofile%\Desktop\YouTube\downloaded\{url.title}.mp4"', shell=True)
-        
 
     else:
         merge(video_file, audio_file, final_file)
         Label(root, text = 'Download Successful!', font = 'arial 17', fg = 'white', bg = "#282828").place(x = 129 , y = 241)
         subprocess.run(f'explorer "%userprofile%\Desktop\YouTube\{file_named}.mp4"', shell=True)
-    Label(root, text = f'title = {url.title}', font = 'arial 11 bold', fg = 'white', bg = "#282828").place(x = 3 , y = 272)
-    
-    
+    Label(root, text = f'title = {url.title}', font = 'arial 11 bold', fg = 'white', bg = "#282828").place(x = 3 , y = 272)    
 btn = Button(root,text = 'Download', font = 'arial 15 bold', bg = "pale violet red", command = Downloader, activebackground = 'white', activeforeground = 'black', cursor = "hand2", padx = 3, pady = 3, border = 2).place(x = 180, y = 189)
 root.mainloop()
