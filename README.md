@@ -13,4 +13,4 @@ If a divulgence appears, click the arrow and keep. (If a warning appears saying 
 
 
 ### **Restricted Access**
-<img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/PowerShell_5.0_icon.png" alt='powershell icon'>
+<img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/PowerShell_5.0_icon.png" alt='powershell icon' width='100'>
