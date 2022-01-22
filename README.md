@@ -11,7 +11,7 @@ This is not a malevolent dissemination, to instigate you’ll have to incapacita
 
 
 ### **Installation**
-`**WINDOWS**` : For **MORE** instructions about the installation visit the [recent release](https://github.com/Panos-Jr/YouTube_Downloader/releases/tag/v1.0.3.1) (recommended)
+**`WINDOWS`** : For **MORE** instructions about the installation visit the [recent release](https://github.com/Panos-Jr/YouTube_Downloader/releases/tag/v1.0.3.1) (recommended)
 
 ### **Restricted Access**
 <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/PowerShell_5.0_icon.png" alt="powershell icon" width="100">
