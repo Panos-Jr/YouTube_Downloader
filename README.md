@@ -40,7 +40,9 @@ If the video has downloaded successfully, this is what you should see.
 
 ### **Restricted Access**
 <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/PowerShell_5.0_icon.png" alt="powershell icon" width="100">
-To disable restricted access (unblock file) you can navigate to the **youtube_downloader-1.0.3.1.exe**. RIGHT CLICK > Properties > UNBLOCK file.
+To disable restricted access (unblock file) you can navigate to the `youtube_downloader-1.0.3.1.exe`. 
+**RIGHT CLICK > Properties > UNBLOCK file**
+
 <img src="https://user-images.githubusercontent.com/84411578/150657094-42531c9c-3a35-46d9-beaf-56640722f883.png" alt="unblock-file powershell">
 
 
