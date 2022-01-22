@@ -19,3 +19,4 @@ To disable restricted access (unblock file) you can navigate to the **youtube_do
 
 <img src="https://user-images.githubusercontent.com/84411578/150657319-a2f1d699-3007-4c00-9466-26415244a2af.png" alt="right-click">
 
+<img src="https://user-images.githubusercontent.com/84411578/150657464-07e60971-2b50-47b5-bea5-95670e3ca7f9.png" alt="unblock-file">
