@@ -16,10 +16,17 @@ This is not a malevolent dissemination, to instigate you’ll have to incapacita
 ### **IMAGES**
 
 **The YouTube DOWNLOADER**
+
 <img src="https://user-images.githubusercontent.com/84411578/150658052-6056dc07-9f87-4aa4-a7c8-7f2f1b4000c5.png" alt="the_youtube_downloader">
 
 **FILE NAME** = You should choose a suitable file name for the (**.mp4**) file. Any spaces will be removed.
 **URL** = Paste a **VALID** URL. If you do NOT, the program will display the [**message**] '**Invalid URL**'
+
+ALL downloaded VIDEOS will be saved in a `YouTube` folder on your '**Desktop**' directory. 
+
+If a video does support 1080p, the YOUTUBE video will be downloaded (audio and video will be downloaded seperately). When downloaded, the audio file and video file will be combined (with the file name you chose).
+
+However, if the video does not support 1080p, the video will be downloaded and saved inside the downloaded folder (which will be created in the YouTube folder). The file name will be the title of the video.
 
 **NOT responding**!
 
