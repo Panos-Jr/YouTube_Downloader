@@ -1,0 +1,5 @@
+COPY 'ffmpeg - import' to 'C:\'
+RENAME 'ffmpeg - import' to 'ffmpeg'
+EDIT 'Path' environment variable.
+ADD 'NEW' PATH = 'C:\ffmpeg'
+
