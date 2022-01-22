@@ -17,6 +17,7 @@ This is not a malevolent dissemination, to instigate you’ll have to incapacita
 
 **NOT responding**
 If while downloading, the **PROGRAM** is `not responding`, the program is checking for any ERRORS. (**do not close while running**).
+
 <img src="https://user-images.githubusercontent.com/84411578/150657826-a9840b56-bfaa-4357-94fd-78858ddc76ac.png" alt="not responding">
 
 **Download Successful!**
