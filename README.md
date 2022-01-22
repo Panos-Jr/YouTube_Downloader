@@ -24,9 +24,9 @@ This is not a malevolent dissemination, to instigate you’ll have to incapacita
 
 ALL downloaded VIDEOS will be saved in a `YouTube` folder on your '**Desktop**' directory. 
 
-If a video does support 1080p, the YOUTUBE video will be downloaded (audio and video will be downloaded seperately). When downloaded, the audio file and video file will be combined (with the file name you chose).
+If a video does support **1080p**, the **YOUTUBE** video will be downloaded (`audio` and `video` will be downloaded seperately). When downloaded, the `audio file` and `video file` will be combined (with the file name you chose).
 
-However, if the video does not support 1080p, the video will be downloaded and saved inside the downloaded folder (which will be created in the YouTube folder). The file name will be the title of the video.
+However, if the video does not support **1080p**, the video will be downloaded and saved inside the `downloaded` folder (which will be created in the `YouTube` folder). The file name will be the `title` of the video.
 
 **NOT responding**!
 
