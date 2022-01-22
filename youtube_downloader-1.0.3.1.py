@@ -40,25 +40,21 @@ def exception(e, locale='NOT specified'):
 
 
 def process(task):
-    run = subprocess.run(f'exlorer "{curr_dir}\youtube_downloader {ver_rqst}\youtube_downloader-{ver_rqst}.exe"')
-    output = subprocess.run(f'taskkill /f /im {task}', shell=True, capture_output=True)
-    function = return_code(output.returncode)
-    print(function)
-
+    path = os.path.join(curr_dir, f'youtube_downloader-{ver_rqst}', f'youtube_downloader-{ver_rqst}', f'youtube_downloader-{ver_rqst}.exe')
+    subprocess.run(f'"{path}"', shell=True)
+    subprocess.run(f'taskkill /f /im {task}', shell=True)
+    
 def archive(file, file_name):
     if not os.path.exists(file):
         print(f'{file_name} doesn\'t exist')
         return file
     else:
-        try:
-            exc_file = 'youtube_downloader-1.0.2.7'
-            print(f'IN ARCHIVE {file} and {file_name}')
-            shutil.unpack_archive(file, file_name)
-            task = f'youtube_downloader-{version}.exe'
-            process(task)
-        except Exception as rep:
-            exception(rep, 'archive()')
-        print('ARCHIVE extracted!')
+        print(f'IN ARCHIVE {file} and {file_name} VERSION : {version}')
+        shutil.unpack_archive(file, file_name)
+        task = f'youtube_downloader-{version}.exe'
+        print(f'archive {task}')
+        process(task)
+    print('ARCHIVE extracted!')
 
 def update():
     try:
@@ -76,7 +72,7 @@ def update():
     archived = archive(file_acq, ARCHIVED)
     
 try:
-    version = '1.0.3.1'
+    version = '1.0.3.0'
     Label(root, text=f'Version : {version}', font = 'Arial 13 bold', fg = 'white', bg = '#282828').place(x = 299, y = 35)
     num =  version.replace('.', '')
     ver_url = 'https://raw.githubusercontent.com/Panos-Jr/YouTube_Downloader/main/version.txt'                                                                     
