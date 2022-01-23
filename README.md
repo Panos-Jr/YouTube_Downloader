@@ -38,14 +38,14 @@ If the video has downloaded successfully, this is what you should see.
 <img src="https://user-images.githubusercontent.com/84411578/150657922-847ee096-54be-4dec-8608-1d9b6e7249ab.png" alt="download successful">
 
 ### **Unblocking executable**
-To unblock the executable, navigate to the (exetable, evidently) '<b>youtube_downloader-1.0.3.1.exe</b>'. 
+To unblock the executable, navigate to the (exetable, evidently) '**youtube_downloader-1.0.3.1.exe**'. 
 '**RIGHT CLICK `>` Properties `>` UNBLOCK file**'
 
 <img src="https://user-images.githubusercontent.com/84411578/150657319-a2f1d699-3007-4c00-9466-26415244a2af.png" alt="right-click">
 
 <img src="https://user-images.githubusercontent.com/84411578/150657464-07e60971-2b50-47b5-bea5-95670e3ca7f9.png" alt="unblock-file">
 
-<b>Using PowerShell</b>
+**Using PowerShell**
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/PowerShell_5.0_icon.png" alt="powershell icon" width="100">
 <img src="https://user-images.githubusercontent.com/84411578/150657094-42531c9c-3a35-46d9-beaf-56640722f883.png" alt="unblock-file powershell">
