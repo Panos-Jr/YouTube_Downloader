@@ -6,7 +6,7 @@ The `youtube_downloader` is an efficacious contrivance which can download '**YOU
 
 ### **Clarification** 
 This is not a malevolent dissemination, to instigate you’ll have to incapacitate the serviceability of your '**ANTIVIRUS** software' (if the executable **file** is not FOUND, you will have to manually recover it, since your antivirus will have threat discernment, from your **antivirus** software). **BE AWARE**!
- If a warning does appear, try [dibilitating restrictions](https://github.com/Panos-Jr/YouTube_Downloader/blob/main/README.md#unblock-file). (unblocking file)
+ If a warning does appear, try [dibilitating restrictions](https://github.com/Panos-Jr/YouTube_Downloader/blob/main/README.md#unblocking-executable). (unblocking file)
 
 
 
@@ -37,7 +37,7 @@ If while downloading, the **PROGRAM** is `not responding`, the program is checki
 If the video has downloaded successfully, this is what you should see.
 <img src="https://user-images.githubusercontent.com/84411578/150657922-847ee096-54be-4dec-8608-1d9b6e7249ab.png" alt="download successful">
 
-### **Unblock File**
+### **Unblocking executable**
 To unblock the file you can navigate to the '<b>youtube_downloader-1.0.3.1.exe</b>'. 
 '<b>RIGHT CLICK > Properties > UNBLOCK file</b>'
 
