@@ -46,8 +46,6 @@ To disable restricted access (unblock file) you can navigate to the '<b>youtube_
 
 <img src="https://user-images.githubusercontent.com/84411578/150657464-07e60971-2b50-47b5-bea5-95670e3ca7f9.png" alt="unblock-file">
 
-
-<img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/PowerS hell_5.0_icon.png" alt="powershell icon" width="100">
-
 <b>Using PowerShell</b>
+<img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/PowerShell_5.0_icon.png" alt="powershell icon" width="100">
 <img src="https://user-images.githubusercontent.com/84411578/150657094-42531c9c-3a35-46d9-beaf-56640722f883.png" alt="unblock-file powershell">
