@@ -38,8 +38,8 @@ If the video has downloaded successfully, this is what you should see.
 <img src="https://user-images.githubusercontent.com/84411578/150657922-847ee096-54be-4dec-8608-1d9b6e7249ab.png" alt="download successful">
 
 ### **Unblocking executable**
-To unblock the file you can navigate to the '<b>youtube_downloader-1.0.3.1.exe</b>'. 
-'<b>RIGHT CLICK > Properties > UNBLOCK file</b>'
+To unblock the executable, navigate to the (exetable, evidently) '<b>youtube_downloader-1.0.3.1.exe</b>'. 
+'<b>RIGHT CLICK `>` Properties `>` UNBLOCK file</b>'
 
 <img src="https://user-images.githubusercontent.com/84411578/150657319-a2f1d699-3007-4c00-9466-26415244a2af.png" alt="right-click">
 
