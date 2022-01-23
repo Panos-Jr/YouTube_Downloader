@@ -6,7 +6,7 @@ The `youtube_downloader` is an efficacious contrivance which can download '**YOU
 
 ### **Clarification** 
 This is not a malevolent dissemination, to instigate you’ll have to incapacitate the serviceability of your '**ANTIVIRUS** software' (if the executable **file** is not FOUND, you will have to manually recover it, since your antivirus will have threat discernment, from your **antivirus** software). **BE AWARE**!
- If a warning does appear, try disabling [restricted access](https://github.com/Panos-Jr/YouTube_Downloader/blob/main/README.md#restricted-access).
+ If a warning does appear, try [unblocking the file](https://github.com/Panos-Jr/YouTube_Downloader/blob/main/README.md#restricted-access).
 
 
 
@@ -27,7 +27,6 @@ This is not a malevolent dissemination, to instigate you’ll have to incapacita
 If a video does support **1080p**, the **YOUTUBE** video will be downloaded (`audio` and `video` will be downloaded seperately). When downloaded, the `audio file` and `video file` will be combined (with the file name you chose).
 
 However, if the video does not support **1080p**, the video will be downloaded and saved inside the `downloaded` folder (which will be created in the `YouTube` folder). The file name will be the `title` of the video.
-
 **NOT responding**!
 
 If while downloading, the **PROGRAM** is `not responding`, the program is checking for any ERRORS. (**do not close while running**).
@@ -38,8 +37,8 @@ If while downloading, the **PROGRAM** is `not responding`, the program is checki
 If the video has downloaded successfully, this is what you should see.
 <img src="https://user-images.githubusercontent.com/84411578/150657922-847ee096-54be-4dec-8608-1d9b6e7249ab.png" alt="download successful">
 
-### **Restricted Access**
-To disable restricted access (unblock file) you can navigate to the '<b>youtube_downloader-1.0.3.1.exe</b>'. 
+### **Unblock File**
+To unblock the file you can navigate to the '<b>youtube_downloader-1.0.3.1.exe</b>'. 
 '<b>RIGHT CLICK > Properties > UNBLOCK file</b>'
 
 <img src="https://user-images.githubusercontent.com/84411578/150657319-a2f1d699-3007-4c00-9466-26415244a2af.png" alt="right-click">
