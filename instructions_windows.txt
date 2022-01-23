@@ -1,4 +1,6 @@
 COPY 'ffmpeg' FOLDER to 'C:\'
-EDIT 'Path' environment variable.
+On your 'taskbar', 'Type here to search'. TYPE, Edit environment variables.
+CLICK 'PATH'
+CLICK 'EDIT'
 ADD 'NEW' PATH = 'C:\ffmpeg'
 
