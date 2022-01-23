@@ -23,7 +23,7 @@ This is not a malevolent dissemination, to instigate you’ll have to incapacita
 **FILE NAME** = You should choose a suitable file name for the (**.mp4**) file. Any spaces will be removed.
 **URL** = Paste a **VALID** URL. If you do NOT, the program will display the [**message**] '**Invalid URL**'
 
-**ALL** downloaded VIDEOS will be saved on your '**Desktop**' directory. (in a `YouTube` folder)
+**ALL** downloaded VIDEOS will be saved on your '**Desktop**' directory. (in the `YouTube` folder)
 
 If a video does support **1080p**, the **YOUTUBE** video will be downloaded (`audio` and `video` will be downloaded seperately). When downloaded, the `audio file` and `video file` will be combined (with the file name you chose).
 
