@@ -10,6 +10,7 @@ This is not a malevolent dissemination, to instigate you’ll have to incapacita
 
 
 
+
 ### **Installation**
 **`WINDOWS`** : For **MORE** instructions about the installation visit the [recent release](https://github.com/Panos-Jr/YouTube_Downloader/releases/tag/v1.0.3.1) (**LINK included**)
 
@@ -22,7 +23,7 @@ This is not a malevolent dissemination, to instigate you’ll have to incapacita
 **FILE NAME** = You should choose a suitable file name for the (**.mp4**) file. Any spaces will be removed.
 **URL** = Paste a **VALID** URL. If you do NOT, the program will display the [**message**] '**Invalid URL**'
 
-<b>ALL</b> downloaded VIDEOS will be saved on your '**Desktop**' directory. (in a `YouTube` folder)
+**ALL** downloaded VIDEOS will be saved on your '**Desktop**' directory. (in a `YouTube` folder)
 
 If a video does support **1080p**, the **YOUTUBE** video will be downloaded (`audio` and `video` will be downloaded seperately). When downloaded, the `audio file` and `video file` will be combined (with the file name you chose).
 
