@@ -50,32 +50,3 @@ To disable restricted access (unblock file) you can navigate to the '<b>youtube_
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/PowerShell_5.0_icon.png" alt="powershell icon" width="100">
 <img src="https://user-images.githubusercontent.com/84411578/150657094-42531c9c-3a35-46d9-beaf-56640722f883.png" alt="unblock-file powershell">
-
-<a href="#" class="myButton">Release</a>
-
-<style>
-.myButton {
-	box-shadow: 0px 10px 14px -7px #276873;
-	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
-	background-color:#599bb3;
-	border-radius:8px;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-	font-family:Arial;
-	font-size:20px;
-	font-weight:bold;
-	padding:13px 32px;
-	text-decoration:none;
-	text-shadow:0px 1px 0px #3d768a;
-}
-.myButton:hover {
-	background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
-	background-color:#408c99;
-}
-.myButton:active {
-	position:relative;
-	top:1px;
-}
-
-<style>
