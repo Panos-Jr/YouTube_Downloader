@@ -4,7 +4,7 @@
 The `youtube_downloader` is an efficacious contrivance which can download '**YOUTUBE VIDEOS**' at the highest supported resolution.
 
 
-### **Clarification** 
+### **Threat Discernment** 
 This is not a malevolent dissemination, to instigate you’ll have to incapacitate the serviceability of your '**ANTIVIRUS** software' (if the executable **file** is not FOUND, you will have to manually recover it, since your antivirus will have threat discernment, from your **antivirus** software). **BE AWARE**!
  If a warning does appear, try [dibilitating restrictions](https://github.com/Panos-Jr/YouTube_Downloader/blob/main/README.md#unblocking-executable). (unblocking file)
 
@@ -13,7 +13,7 @@ This is not a malevolent dissemination, to instigate you’ll have to incapacita
 
 ### **Installation**
 **`WINDOWS`** : For **MORE** instructions about the installation visit the [recent release](https://github.com/Panos-Jr/YouTube_Downloader/releases/tag/v1.0.3.1) (**LINK included**)
-
+**Once installed,** FOLLOW the `instructions` [here](https://github.com/Panos-Jr/YouTube_Downloader/blob/main/instructions_windows.txt) (compulsory, please follow the instructions)
 ### **IMAGES**
 
 **The YouTube DOWNLOADER**
