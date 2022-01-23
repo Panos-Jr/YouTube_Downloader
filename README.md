@@ -53,6 +53,7 @@ To disable restricted access (unblock file) you can navigate to the '<b>youtube_
 
 <a href="#" class="myButton">Release</a>
 
+<style>
 .myButton {
 	box-shadow: 0px 10px 14px -7px #276873;
 	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
@@ -77,4 +78,4 @@ To disable restricted access (unblock file) you can navigate to the '<b>youtube_
 	top:1px;
 }
 
-        
+<style>
