@@ -17,10 +17,8 @@ root.configure(bg="#282828")
 curr_dir = os.path.dirname(os.path.realpath(__file__))
 userprofile = os.environ['USERPROFILE']
 list_dir = os.listdir(userprofile)
-for list in list_dir:
-    if 'Desktop' in list:
-        break
-DESKTOP = os.path.join(userprofile, list)
+desk_dir = 'Desktop'
+DESKTOP = os.path.join(userprofile, desk_dir)
 print(DESKTOP)
 
 Label(root, text = 'YouTube - Video Downloader', font = 'arial 20 bold', fg = 'white', bg = '#282828').pack()
