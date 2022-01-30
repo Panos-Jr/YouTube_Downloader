@@ -18,8 +18,10 @@ curr_dir = os.path.dirname(os.path.realpath(__file__))
 userprofile = os.environ['USERPROFILE']
 list_dir = os.listdir(userprofile)
 desk_dir = 'Desktop'
-DESKTOP = os.path.join(userprofile, desk_dir)
-print(DESKTOP)
+for dir in list_dir:
+    if desk_dir in dir:
+        break
+DESKTOP = os.path.join(userprofile, dir)
 
 Label(root, text = 'YouTube - Video Downloader', font = 'arial 20 bold', fg = 'white', bg = '#282828').pack()
 Label(root, text = 'Created by Panos-Jr', font = 'arial 11 bold', fg = 'gray', bg = '#282828').place(x = 129, y = 35)
@@ -28,10 +30,9 @@ link = StringVar()
 Label(root, text = 'Paste URL', font = 'arial 14 bold', bg = "#282828", fg = 'white').place(x = 175 , y = 60)
 Entry(root, width = 70, textvariable = link).place(x = 35, y = 90)
 
-link1 = StringVar()
+file_given = StringVar()
 Label(root, text = 'File NAME', font = 'arial 14 bold', bg = '#282828', fg = 'white').place(x = 175, y = 130)
 Entry(root, width = 70, textvariable = link1).place(x = 35, y = 160)
-        #y axis
 
 def return_code(code):
     if not code:
@@ -128,19 +129,16 @@ def Downloader():
     audio = os.path.join(YOUTUBE, 'audio')
     video_file = f'{video}/video.mp4'
     audio_file = f'{audio}/audio.mp3'
-    file_named1 = str(link1.get())
-    file_named = file_named1.replace(" ", "")
-    print(file_named)
+    name_file = str(file_given.get())
+    file_named = name_file.strip()
     final_file = os.path.join(YOUTUBE, f"{file_named}.mp4")
     final = f"{file_named}.mp4"
-    print(final_file)
     dire = os.listdir(YOUTUBE)
     print(f"DIR : {dire}")
 
     def merge(video, audio, file):
         file_video = ffmpeg.input(video)
         file_audio = ffmpeg.input(audio)
-        #ffmpeg.concat(file_video, file_audio, v=1, a=1).output(file).run()
         
     #audio and video
         ffmpeg.output(file_video, file_audio, file, acodec='copy', vcodec='copy').run()
@@ -148,12 +146,12 @@ def Downloader():
     if file_written:
         Label(root, text = 'Download Successful!', font = 'arial 17', fg = 'white', bg = "#282828").place(x = 129 , y = 241)
         print('exists')
-        subprocess.run(f'explorer "%userprofile%\Desktop\YouTube\downloaded\{url.title}.mp4"', shell=True)
+        subprocess.run(f'"%userprofile%\Desktop\YouTube\downloaded\{url.title}.mp4"', shell=True)
 
     else:
         merge(video_file, audio_file, final_file)
         Label(root, text = 'Download Successful!', font = 'arial 17', fg = 'white', bg = "#282828").place(x = 129 , y = 241)
-        subprocess.run(f'explorer "%userprofile%\Desktop\YouTube\{file_named}.mp4"', shell=True)
+        subprocess.run(f'"%userprofile%\Desktop\YouTube\{file_named}.mp4"', shell=True)
     Label(root, text = f'title = {url.title}', font = 'arial 11 bold', fg = 'white', bg = "#282828").place(x = 3 , y = 272)    
 btn = Button(root,text = 'Download', font = 'arial 15 bold', bg = "pale violet red", command = Downloader, activebackground = 'white', activeforeground = 'black', cursor = "hand2", padx = 3, pady = 3, border = 2).place(x = 180, y = 189)
 root.mainloop()
