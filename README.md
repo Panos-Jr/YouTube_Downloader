@@ -13,7 +13,31 @@ This is not a malevolent dissemination, to instigate you’ll have to incapacita
 
 ### **Installation**
 **`WINDOWS`** : For **MORE** instructions about the installation visit the [recent release](https://github.com/Panos-Jr/YouTube_Downloader/releases/tag/v1.0.3.1) (**LINK included**)
-**Once installed,** FOLLOW the `instructions` [here](https://github.com/Panos-Jr/YouTube_Downloader/blob/main/instructions_windows.txt) (compulsory, please follow the instructions)
+**Once installed,** FOLLOW the `instructions` below.
+
+
+## **Instructions**
+`Navigate` to the '**youtube_downloader-1.0.3.1**' **DIRECTORY**, `COPY` the `ffmpeg` **DIRECTORY** to '`C:\`'.
+<img src="https://user-images.githubusercontent.com/84411578/151707660-aa1aa14d-87ce-4edb-99fb-b9dec343c43a.png" alt="ffmpeg-import">
+
+On your **TASKBAR**, navigate to '`Type here to search`' (**SEARCH**) `Edit ENVIRONMENT variables`. (OR **Control Panel**, `control.exe`)
+
+<img src="https://user-images.githubusercontent.com/84411578/151707732-df0c2778-0f74-426c-b125-ad32e200836e.png" alt="environment variables (env)">
+
+**Navigate** to '`PATH`', click `EDIT`.
+
+<img src="https://user-images.githubusercontent.com/84411578/151707802-706896f1-3329-4d04-8171-f3438b20207d.png" alt="PATH (edit)">
+
+Click `NEW`. [to `ADD` a **NEW** PATH]
+
+<img src="https://user-images.githubusercontent.com/84411578/151707897-bdb3aa7e-c440-4e27-bbb8-3335b54bc616.png" alt="NEW (PATH)">
+
+**TYPE** '`C:\ffmpeg`', **PRESS&** [**ENTER**].
+
+<img src="https://user-images.githubusercontent.com/84411578/151707955-500230e8-275e-4dfa-af75-522986af0790.png" alt="C:\ffmpeg">
+
+The `PATH` **environment variable** is an important '**security control**'. It specifies the **directories** to be searched to find a `command`. PATH (the **environment variable**) is on **Unix-like operating systems, DOS, OS/2, and Microsoft Windows**.
+
 ### **IMAGES**
 
 **The YouTube DOWNLOADER**
