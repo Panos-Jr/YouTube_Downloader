@@ -17,7 +17,9 @@ This is not a malevolent dissemination, to instigate you’ll have to incapacita
 
 
 ## **Instructions**
+
 `Navigate` to the '**youtube_downloader-1.0.3.1**' **DIRECTORY**, `COPY` the `ffmpeg` **DIRECTORY** to '`C:\`'.
+
 <img src="https://user-images.githubusercontent.com/84411578/151707660-aa1aa14d-87ce-4edb-99fb-b9dec343c43a.png" alt="ffmpeg-import">
 
 On your **TASKBAR**, navigate to '`Type here to search`' (**SEARCH**) `Edit ENVIRONMENT variables`. (OR **Control Panel**, `control.exe`)
