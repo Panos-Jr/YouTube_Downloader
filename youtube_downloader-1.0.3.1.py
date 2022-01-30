@@ -145,7 +145,6 @@ def Downloader():
 
     if file_written:
         Label(root, text = 'Download Successful!', font = 'arial 17', fg = 'white', bg = "#282828").place(x = 129 , y = 241)
-        print('exists')
         subprocess.run(f'"%userprofile%\Desktop\YouTube\downloaded\{url.title}.mp4"', shell=True)
 
     else:
