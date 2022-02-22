@@ -12,7 +12,7 @@ This is not a malevolent dissemination, to instigate you’ll have to incapacita
 
 
 ### **Installation**
-**`WINDOWS`** : For **MORE** instructions about the installation visit the [recent release](https://github.com/Panos-Jr/YouTube_Downloader/releases/tag/v1.0.3.1) (**LINK included**)
+**`WINDOWS`** : For **MORE** instructions about the installation visit the [recent release](https://github.com/Panos-Jr/YouTube_Downloader/releases/tag/v1.0.3.2) (**LINK included**)
 **Once installed,** FOLLOW the `instructions` below.
 
 
