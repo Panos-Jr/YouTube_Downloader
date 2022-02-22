@@ -76,7 +76,7 @@ def update():
     archived = archive(file_acq, ARCHIVED)
     
 try:
-    version = '1.0.3.1'
+    version = '1.0.3.2'
     Label(root, text=f'Version : {version}', font = 'Arial 13 bold', fg = 'white', bg = '#282828').place(x = 299, y = 35)
     num =  version.replace('.', '')
     ver_url = 'https://raw.githubusercontent.com/Panos-Jr/YouTube_Downloader/main/version.txt'                                                                     
